@@ -28,7 +28,7 @@ class MainTabBarViewController: UITabBarController {
         //bottom nav bar title setup
         vc1.title = "Home"
         vc2.title = "Coming Soon"
-        vc3.title = "Top Searches"
+        vc3.title = "Search"
         vc4.title = "Downloads"
         
         tabBar.tintColor = .label

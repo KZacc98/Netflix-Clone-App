@@ -1,5 +1,5 @@
 # Netflix-Clone-App
-Tutorial app made with Swift, UIKit and WebKit 
+App made with Swift, UIKit and WebKit 
 ```
 Movie info provided by TMDB API (https://www.themoviedb.org)
 Trailers provided by Youtube API (https://developers.google.com/youtube/v3)

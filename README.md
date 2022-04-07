@@ -4,7 +4,8 @@ App made with Swift, UIKit and WebKit
 Movie info provided by TMDB API (https://www.themoviedb.org)
 Trailers provided by Youtube API (https://developers.google.com/youtube/v3)
 
-for safety reasons API Keys have restricted usage, in order for app to work provide your own API keys in APICaller.Constants
+for safety reasons API Keys have restricted usage.
+In order for app to work provide your own API keys in APICaller.Constants
 ```
 
 ###### App Demo

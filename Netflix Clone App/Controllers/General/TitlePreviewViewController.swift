@@ -23,21 +23,11 @@ class TitlePreviewViewController: UIViewController {
         label.font = .systemFont(ofSize: 18, weight: .regular)
         label.translatesAutoresizingMaskIntoConstraints = false
         label.numberOfLines = 0
-        label.text = "okay movie kinda overrated tbh"
+        label.text = "test overview text"
         return label
     }()
     
-    private let downloadButton: UIButton = {
-        let button = UIButton()
-        button.translatesAutoresizingMaskIntoConstraints = false
-        button.backgroundColor = .red
-        button.setTitle("Download", for: .normal)
-        button.setTitleColor(.white, for: .normal)
-        button.layer.cornerRadius = 8
-        button.layer.masksToBounds = true
-        
-        return button
-    }()
+    
     
     private let webView: WKWebView = {
         let webView = WKWebView()
@@ -51,7 +41,7 @@ class TitlePreviewViewController: UIViewController {
         view.addSubview(webView)
         view.addSubview(titleLabel)
         view.addSubview(overviewLabel)
-        view.addSubview(downloadButton)
+    
         
         view.backgroundColor = .systemBackground
         
@@ -78,18 +68,9 @@ class TitlePreviewViewController: UIViewController {
             overviewLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor)
         ]
         
-        let downloadButtonConstraints = [
-            downloadButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            downloadButton.topAnchor.constraint(equalTo: overviewLabel.bottomAnchor,constant: 20),
-            downloadButton.widthAnchor.constraint(equalToConstant: 140),
-            downloadButton.heightAnchor.constraint(equalToConstant: 40)
-        ]
-        
-        
         NSLayoutConstraint.activate(webViewConstraints)
         NSLayoutConstraint.activate(titleLabelConstraints)
         NSLayoutConstraint.activate(overviewLabelConstraints)
-        NSLayoutConstraint.activate(downloadButtonConstraints)
     }
 
     

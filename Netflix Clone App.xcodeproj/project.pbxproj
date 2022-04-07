@@ -15,7 +15,6 @@
 		EF994EA327FBBD570052AF6B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF994EA227FBBD570052AF6B /* HomeViewController.swift */; };
 		EF994EA527FBBDB10052AF6B /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF994EA427FBBDB10052AF6B /* UpcomingViewController.swift */; };
 		EF994EA727FBBDD30052AF6B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF994EA627FBBDD30052AF6B /* SearchViewController.swift */; };
-		EF994EA927FBBDF20052AF6B /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF994EA827FBBDF20052AF6B /* DownloadsViewController.swift */; };
 		EF994ED427FD0F2C0052AF6B /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF994ED327FD0F2C0052AF6B /* CollectionViewTableViewCell.swift */; };
 		EF994ED627FDC9230052AF6B /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF994ED527FDC9230052AF6B /* HeroHeaderUIView.swift */; };
 		EF994ED827FDDC430052AF6B /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF994ED727FDDC430052AF6B /* APICaller.swift */; };
@@ -43,7 +42,6 @@
 		EF994EA227FBBD570052AF6B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		EF994EA427FBBDB10052AF6B /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
 		EF994EA627FBBDD30052AF6B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		EF994EA827FBBDF20052AF6B /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		EF994ED327FD0F2C0052AF6B /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		EF994ED527FDC9230052AF6B /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		EF994ED727FDDC430052AF6B /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
@@ -166,7 +164,6 @@
 				EF994EA227FBBD570052AF6B /* HomeViewController.swift */,
 				EF994EA427FBBDB10052AF6B /* UpcomingViewController.swift */,
 				EF994EA627FBBDD30052AF6B /* SearchViewController.swift */,
-				EF994EA827FBBDF20052AF6B /* DownloadsViewController.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -264,7 +261,6 @@
 				EF994ED427FD0F2C0052AF6B /* CollectionViewTableViewCell.swift in Sources */,
 				EF994ED827FDDC430052AF6B /* APICaller.swift in Sources */,
 				EF994ED627FDC9230052AF6B /* HeroHeaderUIView.swift in Sources */,
-				EF994EA927FBBDF20052AF6B /* DownloadsViewController.swift in Sources */,
 				EF994E8E27FBBB120052AF6B /* AppDelegate.swift in Sources */,
 				EF994EEB27FE38DA0052AF6B /* SearchResultsViewController.swift in Sources */,
 				EF994EDC27FDE4680052AF6B /* Extensions.swift in Sources */,
@@ -416,6 +412,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Netflix Clone App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = TrailerFlix;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -425,7 +422,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kamilzachara.Netflix-Clone-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kamilzachara.TrailerFlix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -442,6 +439,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Netflix Clone App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = TrailerFlix;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -451,7 +449,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kamilzachara.Netflix-Clone-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kamilzachara.TrailerFlix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
